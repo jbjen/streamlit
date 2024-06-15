@@ -32,7 +32,7 @@ hide_pages(["Thank you"])
 st.markdown("### 👨‍🔧 Machine Learning Exploration by [Jerlyn](https://github.com/koalatech)")
 
 # Display an image
-st.image("pict\ml.jpg")
+st.image("./pict/ml.jpg")
 
 # Display info box
 st.info("⚙️🤖 This application demonstrates how different machine learning techniques can be used in quality management to improve our work and efficiency as students..")
@@ -44,7 +44,7 @@ st.markdown("---")
 
 
 # Display another image
-st.image("pict\mlearning.jpg")
+st.image("./pict/mlearning.jpg")
 
 # Display more markdown content
 st.markdown("""
