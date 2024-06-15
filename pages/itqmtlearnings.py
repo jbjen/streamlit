@@ -4,7 +4,7 @@ st.set_page_config(layout="wide", page_title="Learnings")
 st.title("🔍 Insights Gained from this Project")
 st.header('📚 Valuable Insights💡')
 
-st.image(".\pict\ml.jpg")
+st.image("./pict/ml.jpg")
 
 st.markdown("""
 #
