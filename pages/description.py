@@ -4,7 +4,7 @@ st.title("Description of Different Streamlit Application")
 
 
 st.header('Machine Learning Compiled Application')
-st.image(".\pict\emotions.png")
+st.image("./pict/emotions.png")
 
 with st.expander("😊 Emotion Detector 😊"):
     st.markdown("""
@@ -21,7 +21,7 @@ An emotion analyzer using text in machine learning reads text and breaks it down
     """, unsafe_allow_html=True)
 
 st.header('🦁 Image Classification 🐆')
-st.image(".\pict\imageclassify.png")
+st.image("./pict/imageclassify.png")
 
 with st.expander("Image Classification of Wild Cats"):
     st.markdown("""
@@ -34,8 +34,8 @@ with st.expander("Image Classification of Wild Cats"):
     """, unsafe_allow_html=True)
 
 st.header('🔍Prediction')
-st.image(".\pict\predict1.png")
-st.image(".\pict\predict2.png")
+st.image("./pict/predict1.png")
+st.image("./pict/predict2.png")
 
 with st.expander("🌦️ Weather Predictor 🌦️"):
     st.markdown("""
