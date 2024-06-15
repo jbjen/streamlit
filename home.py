@@ -32,7 +32,7 @@ hide_pages(["Thank you"])
 st.markdown("### 👨‍🔧 Machine Learning Exploration by [Jerlyn](https://github.com/koalatech)")
 
 # Display an image
-st.image(".\pict\ml.jpg")
+st.image("pict\ml.jpg")
 
 # Display info box
 st.info("⚙️🤖 This application demonstrates how different machine learning techniques can be used in quality management to improve our work and efficiency as students..")
@@ -40,17 +40,11 @@ st.info("⚙️🤖 This application demonstrates how different machine learning
 # Display divider
 st.markdown("---")
 
-# Display an expander with sample content
-with st.expander("Sample Expansion"):
-    st.markdown("""
-        <a href=""><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
-        #
-        #
-    """, unsafe_allow_html=True)
+
 
 
 # Display another image
-st.image(".\pict\mlearning.jpg")
+st.image("pict\mlearning.jpg")
 
 # Display more markdown content
 st.markdown("""
